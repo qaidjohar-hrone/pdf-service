@@ -1,0 +1,13 @@
+# Core FastAPI and server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Document processing
+python-docx==1.1.0
+# docx2pdf removed - using LibreOffice instead for cross-platform support
+
+# HTML to PDF conversion
+weasyprint==60.2
+jinja2==3.1.3
